@@ -61,6 +61,7 @@ export default function Pagination({ totalPages }: { totalPages: number }) {
       </div> 
     </>
   );
+}
 
 
 function PaginationNumber({
@@ -127,4 +128,4 @@ function PaginationArrow({
       {icon}
     </Link>
   );
-}
+
